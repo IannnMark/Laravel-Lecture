@@ -28,9 +28,9 @@ $(document).ready(function () {
             // {data: 'imagePath'},
             { data: null,
                 render: function (data, type, row) {
-                    console.log(data.img_path) 
+                    console.log(data.imagePath) 
                     return `<img src="/storage/${data.
-                        img_path}" width="50"
+                        imagePath}" width="50"
                     height="60">`;
                 }
             },
@@ -195,4 +195,3 @@ $(document).ready(function () {
             },
         });
     });
-

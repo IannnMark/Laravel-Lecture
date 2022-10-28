@@ -19,4 +19,10 @@ class Customer extends Model
     protected $fillable = ['title', 'fname', 'lname','addressline','town','zipcode','phone','creditlimit','level','user_id'];
 
     public $timestamps = false;
+
+    public function orders(){
+
+        return $this->hasMany('App\Models\Order','customer_id');
+
+    }
 }

@@ -60,58 +60,6 @@
 </div> 
 
 
-{{-- 
-<div class="modal fade" id="editItemModal" role="dialog" style="display:none">
-  <div class="modal-dialog">
-      <div class="modal-content">
-          <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Edit Item</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          
-          <div class="modal-body">
-              <form id="iform" method ="PUT" action="#" enctype="multipart/form-data">
-                <input type="hidden">
-                  <div class="form-group">
-                      <label for="iitem_id" class="control-label">Item id</label>
-                      <input type="text" class="form-control" id="iitem_id" name="item_id"  readonly>
-                  </div>
-                  <div class="form-group">
-                      <label for="idescription" class="control-label">Description</label>
-                      <input type="text" class="form-control" id="idescription" name="description" >
-                  </div>
-                  
-                  <div class="form-group">
-                      <label for="icost_price" class="control-label"><i class="#"></i> Cost Price</label>
-                      <input type="text" class="form-control" id="icost_price" name="cost_price">
-                  </div>
-                  
-                  <div class="form-group">
-                      <label for="isell_price" class="control-label"><i class="#"></i> Sell Price</label>
-                      <input type="text" class="form-control " id="isell_price" name="sell_price" >
-                  </div>
-              
-                  <div class="form-group">
-                      <label for="ititle" class="control-label"><i class="#"></i> Title</label>
-                      <input type="text" class="form-control " id="ititle" name="title" >
-                  </div>
-              
-                  <div class="form-group"> 
-                      
-                      <label for="iimagePath" class="control-label"><i class="#"></i>  Image</label>
-                      <input type="file" class="form-control" id="iimagePath" name="imagePath" >
-                  </div>
-              </form>
-          </div>
-          <div class="modal-footer">
-              
-              <button type="button" class="btn btn-default" data-bs-dismiss="modal"><i class="fa-sharp fa-solid fa-circle-xmark"></i> Close</button>
-              <button id="itemUpdate" type="submit" class="btn btn-primary"><i class="fa-solid fa-floppy-disk"></i> Update</button>
-          </div>
-      </div>
-  </div>
-  </div> --}}
-  
 <div class="modal fade" id="editItemModal" role="dialog" style="display:none">
   <div class="modal-dialog">
       <div class="modal-content">
